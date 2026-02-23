@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "type": "pahala",
+    "title": "Senyum ke Saudaramu",
+    "titleEn": "Smile at Your Brother",
+    "desc": "Tahukah kamu, senyum ke saudaramu bernilai sedekah? Sangat ringan tapi berpahala besar.",
+    "descEn": "Did you know that smiling at your brother is an act of charity? So lightweight yet so rewarding."
+  },
+  {
+    "id": "2",
+    "type": "dosa",
+    "title": "Membicarakan Orang Lain",
+    "titleEn": "Backbiting (Ghibah)",
+    "desc": "Ghibah ibarat memakan daging saudaramu sendiri. Hindari membicarakan keburukan orang lain saat nongkrong.",
+    "descEn": "Backbiting is akin to eating the flesh of your dead brother. Avoid speaking ill of others while socializing."
+  },
+  {
+    "id": "3",
+    "type": "pahala",
+    "title": "Membaca Al-Kahfi di Hari Jumat",
+    "titleEn": "Reading Al-Kahf on Fridays",
+    "desc": "Bercahaya di antara dua Jumat. Sempatkan baca walau dicicil ya.",
+    "descEn": "Illuminates you between two Fridays. Try to read it, even in parts."
+  },
+  {
+    "id": "101",
+    "type": "pahala",
+    "title": "Membaca Bismillah Sebelum Makan",
+    "titleEn": "Saying Bismillah Before Eating",
+    "desc": "Sangat sepele namun mencegah setan ikut makan bersama kita. Berkah makanan terjaga!",
+    "descEn": "A simple habit that prevents Shaytan from sharing your meal. Keeps the blessings intact!"
+  },
+  {
+    "id": "102",
+    "type": "dosa",
+    "title": "Menunda-nunda Sholat",
+    "titleEn": "Delaying Prayers",
+    "desc": "Jangan menunggu waktu luang untuk sholat, luangkan waktumu untuk sholat. Menunda tanpa uzur adalah awal kelalaian.",
+    "descEn": "Don't wait for free time to pray, free your time to pray. Delaying without excuse leads to negligence."
+  },
+  {
+    "id": "103",
+    "type": "pahala",
+    "title": "Sedekah Subuh",
+    "titleEn": "Morning Charity (Subuh)",
+    "desc": "Malaikat turun tiap pagi mendoakan orang yang bersedekah. Sisihkan uang koin di kaleng sedekahmu setiap selesai Subuh.",
+    "descEn": "Angels descend every morning to pray for those who give charity. Drop a coin in a jar after Fajr."
+  },
+  {
+    "id": "104",
+    "type": "dosa",
+    "title": "Berlebih-lebihan (Tabdzir)",
+    "titleEn": "Extravagance (Tabdzir)",
+    "desc": "Membeli makanan berlebih lalu membuangnya adalah perilaku saudara setan. Ambil makanan secukupnya.",
+    "descEn": "Buying excess food and wasting it is the behavior of the brothers of Shaytan. Take only what you need."
+  },
+  {
+    "id": "105",
+    "type": "pahala",
+    "title": "Menyingkirkan Duri di Jalan",
+    "titleEn": "Removing Obstacles from the Road",
+    "desc": "Ini adalah cabang iman yang paling rendah, namun bisa menjadi perantara engkau masuk surga kelak.",
+    "descEn": "This is the lowest branch of faith, yet it could be the reason you enter Paradise."
+  }
+]
