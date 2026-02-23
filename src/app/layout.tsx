@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Amiri, Aref_Ruqaa } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Chatbot from "@/components/chat/Chatbot";
 import Footer from "@/components/layout/Footer";
 import { LanguageProvider } from "@/context/LanguageContext";
@@ -93,6 +94,7 @@ export default function RootLayout({
             </QuranAudioProvider>
           </AccessibilityProvider>
         </LanguageProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
