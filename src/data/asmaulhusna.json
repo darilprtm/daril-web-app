@@ -1,0 +1,596 @@
+[
+  {
+    "number": 1,
+    "arabic": "الرَّحْمَنُ",
+    "latin": "Ar Rahman",
+    "meaningId": "Yang Memiliki Mutlak sifat Pemurah"
+  },
+  {
+    "number": 2,
+    "arabic": "الرَّحِيمُ",
+    "latin": "Ar Rahiim",
+    "meaningId": "Yang Memiliki Mutlak sifat Penyayang"
+  },
+  {
+    "number": 3,
+    "arabic": "الْمَلِكُ",
+    "latin": "Al Malik",
+    "meaningId": "Yang Memiliki Mutlak sifat Merajai/Memerintah"
+  },
+  {
+    "number": 4,
+    "arabic": "الْقُدُّوسُ",
+    "latin": "Al Quddus",
+    "meaningId": "Yang Memiliki Mutlak sifat Suci"
+  },
+  {
+    "number": 5,
+    "arabic": "السَّلاَمُ",
+    "latin": "As Salaam",
+    "meaningId": "Yang Memiliki Mutlak sifat Memberi Kesejahteraan"
+  },
+  {
+    "number": 6,
+    "arabic": "الْمُؤْمِنُ",
+    "latin": "Al Mu’min",
+    "meaningId": "Yang Memiliki Mutlak sifat Memberi Keamanan"
+  },
+  {
+    "number": 7,
+    "arabic": "الْمُهَيْمِنُ",
+    "latin": "Al Muhaimin",
+    "meaningId": "Yang Memiliki Mutlak sifat Pemelihara"
+  },
+  {
+    "number": 8,
+    "arabic": "الْعَزِيزُ",
+    "latin": "Al ‘Aziiz",
+    "meaningId": "Yang Memiliki Mutlak Kegagahan"
+  },
+  {
+    "number": 9,
+    "arabic": "الْجَبَّارُ",
+    "latin": "Al Jabbar",
+    "meaningId": "Yang Memiliki Mutlak sifat Perkasa"
+  },
+  {
+    "number": 10,
+    "arabic": "الْمُتَكَبِّرُ",
+    "latin": "Al Mutakabbir",
+    "meaningId": "Yang Memiliki Mutlak sifat Megah,Yang Memiliki Kebesaran"
+  },
+  {
+    "number": 11,
+    "arabic": "الْخَالِقُ",
+    "latin": "Al Khaliq",
+    "meaningId": "Yang Memiliki Mutlak sifat Pencipta"
+  },
+  {
+    "number": 12,
+    "arabic": "الْبَارِئُ",
+    "latin": "Al Baari’",
+    "meaningId": "Yang Memiliki Mutlak sifat Yang Melepaskan(Membuat, Membentuk, Menyeimbangkan)"
+  },
+  {
+    "number": 13,
+    "arabic": "الْمُصَوِّرُ",
+    "latin": "Al Mushawwir",
+    "meaningId": "Yang Memiliki Mutlak sifat YangMembentuk Rupa (makhluknya)"
+  },
+  {
+    "number": 14,
+    "arabic": "الْغَفَّارُ",
+    "latin": "Al Ghaffaar",
+    "meaningId": "Yang Memiliki Mutlak sifat Pengampun"
+  },
+  {
+    "number": 15,
+    "arabic": "الْقَهَّارُ",
+    "latin": "Al Qahhaar",
+    "meaningId": "Yang Memiliki Mutlak sifat Memaksa"
+  },
+  {
+    "number": 16,
+    "arabic": "الْوَهَّابُ",
+    "latin": "Al Wahhaab",
+    "meaningId": "Yang Memiliki Mutlak sifat Pemberi Karunia"
+  },
+  {
+    "number": 17,
+    "arabic": "الرَّزَّاقُ",
+    "latin": "Ar Razzaaq",
+    "meaningId": "Yang Memiliki Mutlak sifat Pemberi Rejeki"
+  },
+  {
+    "number": 18,
+    "arabic": "الْفَتَّاحُ",
+    "latin": "Al Fattaah",
+    "meaningId": "Yang Memiliki Mutlak sifat Pembuka Rahmat"
+  },
+  {
+    "number": 19,
+    "arabic": "اَلْعَلِيْمُ",
+    "latin": "Al ‘Aliim",
+    "meaningId": "Yang Memiliki Mutlak sifatMengetahui (Memiliki Ilmu)"
+  },
+  {
+    "number": 20,
+    "arabic": "الْقَابِضُ",
+    "latin": "Al Qaabidh",
+    "meaningId": "Yang Memiliki Mutlak sifat YangMenyempitkan (makhluknya)"
+  },
+  {
+    "number": 21,
+    "arabic": "الْبَاسِطُ",
+    "latin": "Al Baasith",
+    "meaningId": "Yang Memiliki Mutlak sifat YangMelapangkan (makhluknya)"
+  },
+  {
+    "number": 22,
+    "arabic": "الْخَافِضُ",
+    "latin": "Al Khaafidh",
+    "meaningId": "Yang Memiliki Mutlak sifat YangMerendahkan (makhluknya)"
+  },
+  {
+    "number": 23,
+    "arabic": "الرَّافِعُ",
+    "latin": "Ar Raafi’",
+    "meaningId": "Yang Memiliki Mutlak sifat YangMeninggikan (makhluknya)"
+  },
+  {
+    "number": 24,
+    "arabic": "الْمُعِزُّ",
+    "latin": "Al Mu’izz",
+    "meaningId": "Yang Memiliki Mutlak sifat YangMemuliakan (makhluknya)"
+  },
+  {
+    "number": 25,
+    "arabic": "المُذِلُّ",
+    "latin": "Al Mudzil",
+    "meaningId": "Yang Memiliki Mutlak sifatYang Menghinakan (makhluknya)"
+  },
+  {
+    "number": 26,
+    "arabic": "السَّمِيعُ",
+    "latin": "Al Samii’",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Mendengar"
+  },
+  {
+    "number": 27,
+    "arabic": "الْبَصِيرُ",
+    "latin": "Al Bashiir",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Melihat"
+  },
+  {
+    "number": 28,
+    "arabic": "الْحَكَمُ",
+    "latin": "Al Hakam",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Menetapkan"
+  },
+  {
+    "number": 29,
+    "arabic": "الْعَدْلُ",
+    "latin": "Al ‘Adl",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Adil"
+  },
+  {
+    "number": 30,
+    "arabic": "اللَّطِيفُ",
+    "latin": "Al Lathiif",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Lembut"
+  },
+  {
+    "number": 31,
+    "arabic": "الْخَبِيرُ",
+    "latin": "Al Khabiir",
+    "meaningId": "Yang Memiliki Mutlak sifatMaha Mengetahui Rahasia"
+  },
+  {
+    "number": 32,
+    "arabic": "الْحَلِيمُ",
+    "latin": "Al Haliim",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Penyantun"
+  },
+  {
+    "number": 33,
+    "arabic": "الْعَظِيمُ",
+    "latin": "Al ‘Azhiim",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Agung"
+  },
+  {
+    "number": 34,
+    "arabic": "الْغَفُورُ",
+    "latin": "Al Ghafuur",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Pengampun"
+  },
+  {
+    "number": 35,
+    "arabic": "الشَّكُورُ",
+    "latin": "As Syakuur",
+    "meaningId": "Yang Memiliki Mutlak sifat MahaPembalas Budi (Menghargai)"
+  },
+  {
+    "number": 36,
+    "arabic": "الْعَلِيُّ",
+    "latin": "Al ‘Aliy",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Tinggi"
+  },
+  {
+    "number": 37,
+    "arabic": "الْكَبِيرُ",
+    "latin": "Al Kabiir",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Besar"
+  },
+  {
+    "number": 38,
+    "arabic": "الْحَفِيظُ",
+    "latin": "Al Hafizh",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Menjaga"
+  },
+  {
+    "number": 39,
+    "arabic": "المُقيِت",
+    "latin": "Al Muqiit",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Pemberi Kecukupan"
+  },
+  {
+    "number": 40,
+    "arabic": "الْحسِيبُ",
+    "latin": "Al Hasiib",
+    "meaningId": "Yang Memiliki Mutlak sifat MahaMembuat Perhitungan"
+  },
+  {
+    "number": 41,
+    "arabic": "الْجَلِيلُ",
+    "latin": "Al Jaliil",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Mulia"
+  },
+  {
+    "number": 42,
+    "arabic": "الْكَرِيمُ",
+    "latin": "Al Kariim",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Pemurah"
+  },
+  {
+    "number": 43,
+    "arabic": "الرَّقِيبُ",
+    "latin": "Ar Raqiib",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Mengawasi"
+  },
+  {
+    "number": 44,
+    "arabic": "الْمُجِيبُ",
+    "latin": "Al Mujiib",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Mengabulkan"
+  },
+  {
+    "number": 45,
+    "arabic": "الْوَاسِعُ",
+    "latin": "Al Waasi’",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Luas"
+  },
+  {
+    "number": 46,
+    "arabic": "الْحَكِيمُ",
+    "latin": "Al Hakiim",
+    "meaningId": "Yang Memiliki Mutlak sifat Maka Bijaksana"
+  },
+  {
+    "number": 47,
+    "arabic": "الْوَدُودُ",
+    "latin": "Al Waduud",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Pencinta"
+  },
+  {
+    "number": 48,
+    "arabic": "الْمَجِيدُ",
+    "latin": "Al Majiid",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Mulia"
+  },
+  {
+    "number": 49,
+    "arabic": "الْبَاعِثُ",
+    "latin": "Al Baa’its",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Membangkitkan"
+  },
+  {
+    "number": 50,
+    "arabic": "الشَّهِيدُ",
+    "latin": "As Syahiid",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Menyaksikan"
+  },
+  {
+    "number": 51,
+    "arabic": "الْحَقُّ",
+    "latin": "Al Haqq",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Benar"
+  },
+  {
+    "number": 52,
+    "arabic": "الْوَكِيلُ",
+    "latin": "Al Wakiil",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Memelihara"
+  },
+  {
+    "number": 53,
+    "arabic": "الْقَوِيُّ",
+    "latin": "Al Qawiyyu",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Kuat"
+  },
+  {
+    "number": 54,
+    "arabic": "الْمَتِينُ",
+    "latin": "Al Matiin",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Kokoh"
+  },
+  {
+    "number": 55,
+    "arabic": "الْوَلِيُّ",
+    "latin": "Al Waliyy",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Melindungi"
+  },
+  {
+    "number": 56,
+    "arabic": "الْحَمِيدُ",
+    "latin": "Al Hamiid",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Terpuji"
+  },
+  {
+    "number": 57,
+    "arabic": "الْمُحْصِي",
+    "latin": "Al Mushii",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Mengkalkulasi"
+  },
+  {
+    "number": 58,
+    "arabic": "الْمُبْدِئُ",
+    "latin": "Al Mubdi’",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Memulai"
+  },
+  {
+    "number": 59,
+    "arabic": "الْمُعِيدُ",
+    "latin": "Al Mu’iid",
+    "meaningId": "Yang Memiliki Mutlak sifat MahaMengembalikan Kehidupan"
+  },
+  {
+    "number": 60,
+    "arabic": "الْمُحْيِي",
+    "latin": "Al Muhyii",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Menghidupkan"
+  },
+  {
+    "number": 61,
+    "arabic": "اَلْمُمِيتُ",
+    "latin": "Al Mumiitu",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Mematikan"
+  },
+  {
+    "number": 62,
+    "arabic": "الْحَيُّ",
+    "latin": "Al Hayyu",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Hidup"
+  },
+  {
+    "number": 63,
+    "arabic": "الْقَيُّومُ",
+    "latin": "Al Qayyuum",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Mandiri"
+  },
+  {
+    "number": 64,
+    "arabic": "الْوَاجِدُ",
+    "latin": "Al Waajid",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Penemu"
+  },
+  {
+    "number": 65,
+    "arabic": "الْمَاجِدُ",
+    "latin": "Al Maajid",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Mulia"
+  },
+  {
+    "number": 66,
+    "arabic": "الْواحِدُ",
+    "latin": "Al Wahiid",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Tunggal"
+  },
+  {
+    "number": 67,
+    "arabic": "اَلاَحَدُ",
+    "latin": "Al ‘Ahad",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Esa"
+  },
+  {
+    "number": 68,
+    "arabic": "الصَّمَدُ",
+    "latin": "As Shamad",
+    "meaningId": "Yang Memiliki Mutlak sifat MahaDibutuhkan, Tempat Meminta"
+  },
+  {
+    "number": 69,
+    "arabic": "الْقَادِرُ",
+    "latin": "Al Qaadir",
+    "meaningId": "Yang Memiliki Mutlak sifat MahaMenentukan, Maha Menyeimbangkan"
+  },
+  {
+    "number": 70,
+    "arabic": "الْمُقْتَدِرُ",
+    "latin": "Al Muqtadir",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Berkuasa"
+  },
+  {
+    "number": 71,
+    "arabic": "الْمُقَدِّمُ",
+    "latin": "Al Muqaddim",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Mendahulukan"
+  },
+  {
+    "number": 72,
+    "arabic": "الْمُؤَخِّرُ",
+    "latin": "Al Mu’akkhir",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Mengakhirkan"
+  },
+  {
+    "number": 73,
+    "arabic": "الأوَّلُ",
+    "latin": "Al Awwal",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Awal"
+  },
+  {
+    "number": 74,
+    "arabic": "الآخِرُ",
+    "latin": "Al Aakhir",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Akhir"
+  },
+  {
+    "number": 75,
+    "arabic": "الظَّاهِرُ",
+    "latin": "Az Zhaahir",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Nyata"
+  },
+  {
+    "number": 76,
+    "arabic": "الْبَاطِنُ",
+    "latin": "Al Baathin",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Ghaib"
+  },
+  {
+    "number": 77,
+    "arabic": "الْوَالِي",
+    "latin": "Al Waali",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Memerintah"
+  },
+  {
+    "number": 78,
+    "arabic": "الْمُتَعَالِي",
+    "latin": "Al Muta’aalii",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Tinggi"
+  },
+  {
+    "number": 79,
+    "arabic": "الْبَرُّ",
+    "latin": "Al Barri",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Penderma"
+  },
+  {
+    "number": 80,
+    "arabic": "التَّوَابُ",
+    "latin": "At Tawwaab",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Penerima Tobat"
+  },
+  {
+    "number": 81,
+    "arabic": "الْمُنْتَقِمُ",
+    "latin": "Al Muntaqim",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Penuntut Balas"
+  },
+  {
+    "number": 82,
+    "arabic": "العَفُوُّ",
+    "latin": "Al Afuww",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Pemaaf"
+  },
+  {
+    "number": 83,
+    "arabic": "الرَّؤُوفُ",
+    "latin": "Ar Ra`uuf",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Pengasih"
+  },
+  {
+    "number": 84,
+    "arabic": "مَالِكُ الْمُلْكِ",
+    "latin": "Malikul Mulk",
+    "meaningId": "Yang Memiliki Mutlak sifatPenguasa Kerajaan (Semesta)"
+  },
+  {
+    "number": 85,
+    "arabic": "ذُوالْجَلاَلِوَالإكْرَامِ",
+    "latin": "Dzul JalaaliWal Ikraam",
+    "meaningId": "Yang Memiliki Mutlak sifat PemilikKebesaran dan Kemuliaan"
+  },
+  {
+    "number": 86,
+    "arabic": "الْمُقْسِطُ",
+    "latin": "Al Muqsith",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Adil"
+  },
+  {
+    "number": 87,
+    "arabic": "الْجَامِعُ",
+    "latin": "Al Jamii’",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Mengumpulkan"
+  },
+  {
+    "number": 88,
+    "arabic": "الْغَنِيُّ",
+    "latin": "Al Ghaniyy",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Berkecukupan"
+  },
+  {
+    "number": 89,
+    "arabic": "الْمُغْنِي",
+    "latin": "Al Mughnii",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Memberi Kekayaan"
+  },
+  {
+    "number": 90,
+    "arabic": "اَلْمَانِعُ",
+    "latin": "Al Maani",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Mencegah"
+  },
+  {
+    "number": 91,
+    "arabic": "الضَّارَّ",
+    "latin": "Ad Dhaar",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Memberi Derita"
+  },
+  {
+    "number": 92,
+    "arabic": "النَّافِعُ",
+    "latin": "An Nafii’",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Memberi Manfaat"
+  },
+  {
+    "number": 93,
+    "arabic": "النُّورُ",
+    "latin": "An Nuur",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Bercahaya(Menerangi, Memberi Cahaya)"
+  },
+  {
+    "number": 94,
+    "arabic": "الْهَادِي",
+    "latin": "Al Haadii",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Pemberi Petunjuk"
+  },
+  {
+    "number": 95,
+    "arabic": "الْبَدِيعُ",
+    "latin": "Al Baadii",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Pencipta"
+  },
+  {
+    "number": 96,
+    "arabic": "اَلْبَاقِي",
+    "latin": "Al Baaqii",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Kekal"
+  },
+  {
+    "number": 97,
+    "arabic": "الْوَارِثُ",
+    "latin": "Al Waarits",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Pewaris"
+  },
+  {
+    "number": 98,
+    "arabic": "الرَّشِيدُ",
+    "latin": "Ar Rasyiid",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Pandai"
+  },
+  {
+    "number": 99,
+    "arabic": "الصَّبُورُ",
+    "latin": "As Shabuur",
+    "meaningId": "Yang Memiliki Mutlak sifat Maha Sabar"
+  }
+]

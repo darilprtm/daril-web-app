@@ -1,0 +1,58 @@
+[
+    {
+        "id": "kisah-nabi-muhammad",
+        "title": "Perjuangan Dakwah Nabi Muhammad ﷺ di Mekkah",
+        "coverImage": "https://images.unsplash.com/photo-1591462295326-061034f593b4?auto=format&fit=crop&q=80&w=800",
+        "slides": [
+            {
+                "id": "1",
+                "image": "https://images.unsplash.com/photo-1591462295326-061034f593b4?auto=format&fit=crop&q=80&w=800",
+                "title": "Awal Mula Turunnya Wahyu",
+                "content": "Di usia 40 tahun, Nabi Muhammad ﷺ mulai sering menyendiri (tahannuts) di Gua Hira untuk merenungkan keadaan masyarakat Mekkah yang jatuh dalam kemusyrikan."
+            },
+            {
+                "id": "2",
+                "image": "https://images.unsplash.com/photo-1564750531557-41484196b0bc?auto=format&fit=crop&q=80&w=800",
+                "title": "Malaikat Jibril Datang",
+                "content": "Suatu malam di bulan Ramadhan tahun 610 M, Malaikat Jibril mendatangi beliau dan menyampaikan wahyu pertama: 'Iqra' (Bacalah!) dari Surah Al-'Alaq ayat 1-5."
+            },
+            {
+                "id": "3",
+                "image": "https://images.unsplash.com/photo-1604871000636-074fa5117945?auto=format&fit=crop&q=80&w=800",
+                "title": "Dakwah Sembunyi-sembunyi",
+                "content": "Selama 3 tahun pertama, dakwah dilakukan secara rahasia (Sirriyah). Khadijah, Abu Bakar, Ali bin Abi Thalib, dan Zaid bin Haritsah adalah orang-orang pertama yang memeluk Islam (Assabiqunal Awwalun)."
+            },
+            {
+                "id": "4",
+                "image": "https://images.unsplash.com/photo-1583088927909-5a58eeb01b7a?auto=format&fit=crop&q=80&w=800",
+                "title": "Dakwah Terang-terangan",
+                "content": "Setelah turun Surah Al-Hijr ayat 94, Nabi mulai berdakwah secara terang-terangan kepada Bani Hasyim dan seluruh penduduk Mekkah di Bukit Shafa, yang memicu penentangan keras kafir Quraisy."
+            }
+        ]
+    },
+    {
+        "id": "sejarah-kabah",
+        "title": "Sejarah Pembangunan Ka'bah Makkah",
+        "coverImage": "https://images.unsplash.com/photo-1565552643982-2e5f3337dd49?auto=format&fit=crop&q=80&w=800",
+        "slides": [
+            {
+                "id": "1",
+                "image": "https://images.unsplash.com/photo-1565552643982-2e5f3337dd49?auto=format&fit=crop&q=80&w=800",
+                "title": "Rumah Ibadah Pertama",
+                "content": "Ka'bah adalah rumah ibadah pertama yang dibangun di bumi untuk menyembah Allah. Sebagian ulama berpendapat para Malaikat atau Nabi Adam AS yang pertama kali membangun pondasinya."
+            },
+            {
+                "id": "2",
+                "image": "https://images.unsplash.com/photo-1555147551-73934d49a622?auto=format&fit=crop&q=80&w=800",
+                "title": "Dibangun Ulang Nabi Ibrahim",
+                "content": "Atas perintah Allah, Nabi Ibrahim AS bersama putranya, Nabi Ismail AS, meninggikan kembali bangunan Ka'bah dari pondasi lamanya (QS. Al-Baqarah: 127)."
+            },
+            {
+                "id": "3",
+                "image": "https://images.unsplash.com/photo-1582213797966-eb193fdf6c6a?auto=format&fit=crop&q=80&w=800",
+                "title": "Maqam Ibrahim & Hajar Aswad",
+                "content": "Batu pijakan Nabi Ibrahim saat membangun Ka'bah meninggalkan bekas telapak kaki (Maqam Ibrahim), dan Hajar Aswad adalah batu dari Surga yang diletakkan di sudut Ka'bah."
+            }
+        ]
+    }
+]

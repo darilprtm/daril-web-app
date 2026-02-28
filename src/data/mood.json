@@ -1,0 +1,122 @@
+[
+    {
+        "id": "sedih",
+        "emoji": "😔",
+        "label": "Sedih / Kecewa",
+        "color": "bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100 ring-blue-500",
+        "bgGradient": "from-blue-900 via-slate-900 to-black",
+        "ayah": {
+            "surah": "Al-Baqarah",
+            "verse": "286",
+            "arabic": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ",
+            "latin": "Lā yukallifullāhu nafsan illā wus'ahā",
+            "translation": "Allah tidak membebani seseorang melainkan sesuai dengan kesanggupannya."
+        },
+        "hadith": "Tidaklah seorang muslim tertimpa keletihan, penyakit, kesedihan, duka cita, gangguan, atau kegelisahan, hingga duri yang menusuknya, melainkan Allah akan menghapuskan dosa-dosanya dengan sebab itu. (HR. Bukhari & Muslim)",
+        "doa": {
+            "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ",
+            "latin": "Allahumma inni a'udzu bika minal hammi wal hazan.",
+            "translation": "Ya Allah, aku berlindung kepada-Mu dari rasa gelisah dan sedih."
+        }
+    },
+    {
+        "id": "cemas",
+        "emoji": "😰",
+        "label": "Cemas / Gelisah",
+        "color": "bg-teal-50 text-teal-700 border-teal-200 hover:bg-teal-100 ring-teal-500",
+        "bgGradient": "from-teal-900 via-slate-900 to-black",
+        "ayah": {
+            "surah": "Ar-Ra'd",
+            "verse": "28",
+            "arabic": "ٱلَّذِينَ ءَامَنُوا۟ وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ ٱللَّهِ ۗ أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ",
+            "latin": "Allażīna āmanụ wa taṭma'innu qulụbuhum biżikrillāh, alā biżikrillāhi taṭma'innul-qulụb",
+            "translation": "Yaitu orang-orang yang beriman dan hati mereka menjadi tenteram dengan mengingat Allah. Ingatlah, hanya dengan mengingat Allah hati menjadi tenteram."
+        },
+        "hadith": "Sungguh menakjubkan urusan seorang mukmin, semua urusannya adalah baik baginya. Jika ia mendapatkan kebaikan, ia bersyukur, dan itu baik baginya. Jika ia tertimpa keburukan, ia bersabar, dan itu pun baik baginya. (HR. Muslim)",
+        "doa": {
+            "arabic": "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ",
+            "latin": "Ya Hayyu Ya Qayyum, bi-rahmatika astaghiits.",
+            "translation": "Wahai Rabb Yang Maha Hidup, wahai Rabb Yang Berdiri Sendiri tidak butuh segala sesuatu, dengan rahmat-Mu aku meminta pertolongan."
+        }
+    },
+    {
+        "id": "marah",
+        "emoji": "😠",
+        "label": "Marah / Emosi",
+        "color": "bg-rose-50 text-rose-700 border-rose-200 hover:bg-rose-100 ring-rose-500",
+        "bgGradient": "from-rose-950 via-slate-900 to-black",
+        "ayah": {
+            "surah": "Ali 'Imran",
+            "verse": "134",
+            "arabic": "وَٱلْكَٰظِمِينَ ٱلْغَيْظَ وَٱلْعَافِينَ عَنِ ٱلنَّاسِ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ",
+            "latin": "Wal-kāẓimīnal-gaiẓa wal-'āfīna 'anin-nās, wallāhu yuḥibbul-muḥsinīn",
+            "translation": "...dan orang-orang yang menahan amarahnya dan memaafkan (kesalahan) orang. Allah menyukai orang-orang yang berbuat kebajikan."
+        },
+        "hadith": "Orang yang kuat bukanlah orang yang jago bergulat, namun orang yang kuat adalah orang yang mampu menahan dirinya ketika sedang marah. (HR. Bukhari & Muslim)",
+        "doa": {
+            "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+            "latin": "A'udzubillahi minasy-syaithanir rajiim.",
+            "translation": "Aku berlindung kepada Allah dari godaan syaitan yang terkutuk."
+        }
+    },
+    {
+        "id": "lelah",
+        "emoji": "😮‍💨",
+        "label": "Lelah / Insecure",
+        "color": "bg-amber-50 text-amber-700 border-amber-200 hover:bg-amber-100 ring-amber-500",
+        "bgGradient": "from-amber-900 via-slate-900 to-black",
+        "ayah": {
+            "surah": "Ash-Sharh",
+            "verse": "5-6",
+            "arabic": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا ﴿٥﴾ إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا ﴿٦﴾",
+            "latin": "Fa inna ma'al-'usri yusrā. Inna ma'al-'usri yusrā.",
+            "translation": "Maka sesungguhnya bersama kesulitan ada kemudahan. Sesungguhnya bersama kesulitan ada kemudahan."
+        },
+        "hadith": "Barangsiapa yang meniti jalan untuk mencari ilmu, maka Allah akan mudahkan baginya jalan menuju surga. (HR. Muslim) Sesungguhnya rintangan ini adalah jalan pembuka derajat dari Allah.",
+        "doa": {
+            "arabic": "اللَّهُمَّ لاَ سَهْلَ إِلاَّ مَا جَعَلْتَهُ سَهْلاً وَأَنْتَ تَجْعَلُ الحَزْنَ إِذَا شِئْتَ سَهْلاً",
+            "latin": "Allahumma laa sahla illaa maa ja'altahu sahlaa. Wa anta taj'alul hazna idza syi'ta sahlaa.",
+            "translation": "Ya Allah, tidak ada kemudahan kecuali yang Engkau buat mudah. Dan Engkau menjadikan kesedihan/kesulitan (jika Engkau kehendaki) menjadi mudah."
+        }
+    },
+    {
+        "id": "ragu",
+        "emoji": "🤔",
+        "label": "Ragu / Bimbang",
+        "color": "bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100 ring-indigo-500",
+        "bgGradient": "from-indigo-950 via-slate-900 to-black",
+        "ayah": {
+            "surah": "Al-Kahf",
+            "verse": "10",
+            "arabic": "رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا",
+            "latin": "Rabbanā ātinā mil ladunka raḥmataw wa hayyi' lanā min amrinā rasyadā",
+            "translation": "Wahai Tuhan kami, berikanlah rahmat kepada kami dari sisi-Mu dan sempurnakanlah petunjuk yang lurus bagi kami dalam urusan kami."
+        },
+        "hadith": "Tinggalkanlah apa yang meragukanmu kepada apa yang tidak meragukanmu. Sesungguhnya kejujuran itu ketenangan, sedangkan dusta itu keraguan. (HR. Tirmidzi)",
+        "doa": {
+            "arabic": "اللَّهُمَّ خِرْ لِي وَاخْتَرْ لِي",
+            "latin": "Allahumma khirli wakhtarli.",
+            "translation": "Ya Allah, berikanlah pilihan kepadaku dan pilihlah untukku."
+        }
+    },
+    {
+        "id": "bersyukur",
+        "emoji": "😊",
+        "label": "Sepi / Kesepian",
+        "color": "bg-fuchsia-50 text-fuchsia-700 border-fuchsia-200 hover:bg-fuchsia-100 ring-fuchsia-500",
+        "bgGradient": "from-fuchsia-950 via-slate-900 to-black",
+        "ayah": {
+            "surah": "Qaf",
+            "verse": "16",
+            "arabic": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِۦ نَفْسُهُۥ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ ٱلْوَرِيدِ",
+            "latin": "Wa laqad khalaqnal-insāna wa na'lamu mā tuwaswisu bihī nafsuh, wa naḥnu aqrabu ilaihi min ḥablil-warīd",
+            "translation": "Dan sesungguhnya Kami telah menciptakan manusia dan mengetahui apa yang dibisikkan oleh hatinya, dan Kami lebih dekat kepadanya daripada urat lehernya."
+        },
+        "hadith": "Allah berfirman: Aku sesuai dengan persangkaan hamba-Ku terhadap-Ku, dan Aku mengingatnya ketika dia mengingat-Ku. Jika dia mengingat-Ku dalam dirinya, Aku mengingatnya dalam diri-Ku. (HR. Bukhari)",
+        "doa": {
+            "arabic": "اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
+            "latin": "Allahumma a'inni 'ala dzikrika wa syukrika wa husni 'ibadatik.",
+            "translation": "Ya Allah, tolonglah aku untuk berzikir kepada-Mu, bersyukur kepada-Mu, dan beribadah kepada-Mu dengan baik."
+        }
+    }
+]
