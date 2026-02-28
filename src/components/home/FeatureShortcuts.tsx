@@ -73,16 +73,6 @@ export default function FeatureShortcuts() {
             arrowClass: "text-black/30 group-hover:text-black"
         },
         {
-            title: lang === 'ID' ? "Kalkulator Khatam" : "Khatam Planner",
-            desc: "Target harian Al-Quran.",
-            icon: TrendingUp,
-            href: "/khatam",
-            className: "bg-white border-black/5 md:col-span-2",
-            hoverClass: "hover:-translate-y-1 hover:shadow-lg hover:border-black/10",
-            iconClass: "text-teal-500 bg-teal-50",
-            arrowClass: "text-black/30 group-hover:text-black"
-        },
-        {
             title: lang === 'ID' ? "Lentera Doa" : "Sky of Prayers",
             desc: "Terbangkan doa anonim ke langit malam.",
             icon: Flame,

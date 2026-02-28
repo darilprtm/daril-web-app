@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Globe, Type, ChevronRight } from "lucide-react";
+import { Menu, X, Globe, Type, ChevronRight, Home, BookOpen, Clock, ListChecks, HeartHandshake, Sparkles, CalendarDays, Compass, Activity, TrendingUp, Moon, Target, Newspaper } from "lucide-react";
 import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 import { useAccessibility } from "@/context/AccessibilityContext";
@@ -28,40 +28,32 @@ export default function Navbar() {
     }, [pathname]);
 
     const menuLinks = [
-        { label: t.navHome || "Beranda", href: "/" },
-        { label: t.navQuran || "Al-Quran", href: "/quran" },
-        { label: t.navSholat || "Jadwal Sholat", href: "/sholat" },
-        { label: lang === 'ID' ? "Tata Cara" : "Fiqh Guides", href: "/tata-cara" },
-        { label: t.navDoa || "Doa", href: "/doa" },
-        { label: t.navAsmaulHusna || "Asmaul Husna", href: "/asmaul-husna" },
-        { label: t.navKalender || "Kalender", href: "/kalender" },
-        { label: t.navKiblat || "Kiblat", href: "/kiblat" },
-        { label: lang === 'ID' ? "Mutaba'ah" : "Tracker", href: "/tracker" },
-        { label: lang === 'ID' ? "Kalkulator Khatam" : "Khatam Planner", href: "/khatam" },
-        { label: lang === 'ID' ? "Mode Tahajjud" : "Tahajjud Mode", href: "/tahajjud" },
-        { label: t.navMisi || "Challenge", href: "/games" },
-        { label: t.navNews || "Artikel", href: "/news" },
+        { label: t.navHome || "Beranda", href: "/", icon: Home },
+        { label: t.navQuran || "Al-Quran", href: "/quran", icon: BookOpen },
+        { label: t.navSholat || "Jadwal Sholat", href: "/sholat", icon: Clock },
+        { label: lang === 'ID' ? "Tata Cara" : "Fiqh Guides", href: "/tata-cara", icon: ListChecks },
+        { label: t.navDoa || "Doa", href: "/doa", icon: HeartHandshake },
+        { label: t.navAsmaulHusna || "Asmaul Husna", href: "/asmaul-husna", icon: Sparkles },
+        { label: t.navKalender || "Kalender", href: "/kalender", icon: CalendarDays },
+        { label: t.navKiblat || "Kiblat", href: "/kiblat", icon: Compass },
+        { label: lang === 'ID' ? "Mutaba'ah" : "Tracker", href: "/tracker", icon: Activity },
+        { label: lang === 'ID' ? "Kalkulator Khatam" : "Khatam Planner", href: "/khatam", icon: TrendingUp },
+        { label: lang === 'ID' ? "Mode Tahajjud" : "Tahajjud Mode", href: "/tahajjud", icon: Moon },
+        { label: t.navMisi || "Challenge", href: "/games", icon: Target },
+        { label: t.navNews || "Artikel", href: "/news", icon: Newspaper },
     ];
 
     const menuVariants = {
-        closed: {
-            opacity: 0,
-            y: "-100%",
-            transition: { duration: 0.5, ease: "easeInOut" as const }
-        },
-        open: {
-            opacity: 1,
-            y: 0,
-            transition: { duration: 0.5, ease: "easeInOut" as const }
-        }
+        closed: { opacity: 0, scale: 0.95, filter: "blur(10px)", transition: { duration: 0.4, ease: "easeInOut" as const } },
+        open: { opacity: 1, scale: 1, filter: "blur(0px)", transition: { duration: 0.4, ease: "easeOut" as const } }
     };
 
     const linkVariants = {
-        closed: { opacity: 0, y: 20 },
+        closed: { opacity: 0, x: -20 },
         open: (i: number) => ({
             opacity: 1,
-            y: 0,
-            transition: { delay: 0.1 + (i * 0.05), duration: 0.4, ease: "easeOut" as const }
+            x: 0,
+            transition: { delay: 0.1 + (i * 0.03), duration: 0.3, ease: "easeOut" as const }
         })
     };
 
@@ -71,62 +63,62 @@ export default function Navbar() {
                 initial={{ y: -100 }}
                 animate={{ y: 0 }}
                 transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-                className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-white/80 backdrop-blur-md border-b border-black/5 py-2 shadow-sm" : "bg-transparent py-4"}`}
+                className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-white/80 backdrop-blur-md border-b border-black/5 py-3 shadow-sm" : "bg-transparent py-5"}`}
             >
                 <div className="max-w-7xl mx-auto px-4 lg:px-8 flex items-center justify-between">
                     {/* Left: Menu Toggle */}
                     <div className="flex-1 flex justify-start">
                         <button
                             onClick={() => setIsOpen(true)}
-                            className="group flex items-center gap-3 p-2 hover:bg-black/5 rounded-full transition-colors"
+                            className="flex items-center gap-2 group hover:opacity-70 transition-opacity"
                             aria-label="Open Menu"
                         >
-                            <div className="relative flex items-center justify-center w-10 h-10 md:w-12 md:h-12 rounded-full bg-black/5 group-hover:bg-black group-hover:text-white transition-all duration-300">
-                                <Menu className="w-5 h-5 md:w-6 md:h-6" />
+                            <div className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-100/80 text-slate-700 group-hover:bg-slate-200 transition-colors">
+                                <Menu className="w-5 h-5" />
                             </div>
-                            <span className="text-xs font-bold tracking-widest uppercase hidden md:block">Menu</span>
+                            <span className="text-xs font-bold tracking-widest uppercase text-slate-600 hidden md:block">Eksplor</span>
                         </button>
                     </div>
 
                     {/* Center: Logo */}
                     <Link
                         href="/"
-                        className="flex-1 text-center font-logo text-4xl md:text-5xl text-black hover:scale-105 transition-transform duration-300"
+                        className="flex-1 text-center flex justify-center items-center gap-2 hover:opacity-80 transition-opacity"
                     >
-                        SASUKE.ID
+                        <Sparkles className="w-5 h-5 text-indigo-500" />
+                        <span className="font-logo text-xl md:text-2xl text-slate-900 tracking-wide">SASUKE.ID</span>
                     </Link>
 
                     {/* Right: Actions */}
                     <div className="flex-1 flex justify-end gap-2 md:gap-3">
                         <button
                             onClick={cycleScale}
-                            className="flex items-center justify-center w-10 h-10 md:w-12 md:h-12 rounded-full bg-black/5 hover:bg-black hover:text-white transition-all duration-300 group"
+                            className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-100/80 text-slate-700 hover:bg-slate-200 transition-colors group"
                             title={`Teks: ${scale}`}
                         >
-                            <Type className={`w-4 h-4 md:w-5 md:h-5 transition-transform duration-300 group-hover:scale-110 ${scale === "xlarge" ? "scale-125 font-bold" : scale === "large" ? "scale-110" : ""}`} />
+                            <Type className={`w-4 h-4 transition-transform duration-300 group-hover:scale-110 ${scale === "xlarge" ? "scale-125 font-bold text-indigo-600" : scale === "large" ? "scale-110 text-indigo-500" : ""}`} />
                         </button>
                         <button
                             onClick={toggleLang}
-                            className="flex items-center justify-center w-10 h-10 md:w-fit md:px-5 md:py-2.5 rounded-full border border-black/10 hover:border-black/30 hover:bg-black hover:text-white transition-all duration-300 gap-2 group"
+                            className="flex items-center justify-center w-10 h-10 md:w-fit md:px-4 md:py-2 rounded-full bg-slate-100/80 text-slate-700 hover:bg-slate-200 transition-colors gap-2 group"
                         >
-                            <Globe className="w-4 h-4 md:w-5 md:h-5 group-hover:rotate-12 transition-transform duration-300" />
-                            <span className="hidden md:block text-xs font-bold tracking-widest uppercase">{lang}</span>
+                            <Globe className="w-4 h-4 group-hover:rotate-12 transition-transform duration-300" />
+                            <span className="hidden md:block text-[10px] font-bold tracking-widest uppercase">{lang}</span>
                         </button>
                     </div>
                 </div>
             </motion.nav>
 
-            {/* Full Screen Menu Overlay */}
+            {/* Menu Overlay */}
             <AnimatePresence>
                 {isOpen && (
-                    <motion.div
-                        className="fixed inset-0 z-[100] flex flex-col h-[100dvh]"
-                    >
+                    <motion.div className="fixed inset-0 z-[100] flex">
                         <motion.div
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
-                            className="absolute inset-0 bg-white"
+                            onClick={() => setIsOpen(false)}
+                            className="absolute inset-0 bg-slate-900/40 backdrop-blur-sm"
                         />
 
                         <motion.div
@@ -134,50 +126,47 @@ export default function Navbar() {
                             animate="open"
                             exit="closed"
                             variants={menuVariants}
-                            className="relative z-10 flex flex-col h-full w-full max-w-7xl mx-auto"
+                            className="relative z-10 w-full max-w-md h-full bg-white shadow-2xl flex flex-col ml-auto"
                         >
                             {/* Menu Header */}
-                            <div className="flex justify-between items-center p-6 lg:p-10">
-                                <span className="font-logo text-3xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-black to-black/60">SASUKE.ID</span>
+                            <div className="flex justify-between items-center p-6 border-b border-slate-100">
+                                <div className="flex items-center gap-2">
+                                    <Sparkles className="w-5 h-5 text-indigo-500" />
+                                    <span className="font-logo text-xl text-slate-800 tracking-wide">SASUKE.ID</span>
+                                </div>
                                 <button
                                     onClick={() => setIsOpen(false)}
-                                    className="group w-12 h-12 rounded-full border border-black/10 hover:border-black/30 flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300 shadow-sm"
+                                    className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center hover:bg-slate-200 text-slate-600 transition-colors"
                                 >
-                                    <X className="w-5 h-5 group-hover:rotate-90 transition-transform duration-300" />
+                                    <X className="w-5 h-5" />
                                 </button>
                             </div>
 
                             {/* Menu Links */}
-                            <div className="flex-1 flex flex-col justify-center px-6 md:px-12 lg:px-24 overflow-y-auto pb-24 hide-scrollbar">
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-y-6 gap-x-12 w-full">
-                                    {menuLinks.map((item, i) => (
-                                        <motion.div
-                                            key={item.label}
-                                            custom={i}
-                                            variants={linkVariants}
-                                            className="border-b border-black/5 pb-3 group as-link cursor-pointer hover:border-black/20 transition-colors"
-                                        >
-                                            <Link
-                                                href={item.href}
-                                                className="flex items-center justify-between text-2xl md:text-3xl lg:text-4xl font-serif font-medium text-black/50 hover:text-black transition-all duration-300"
-                                            >
-                                                <span className="group-hover:translate-x-3 transition-transform duration-300 drop-shadow-sm">{item.label}</span>
-                                                <ChevronRight className="w-6 h-6 md:w-8 md:h-8 opacity-0 group-hover:opacity-100 group-hover:-translate-x-3 transition-all duration-300 text-black/40" />
-                                            </Link>
-                                        </motion.div>
-                                    ))}
+                            <div className="flex-1 overflow-y-auto px-6 py-8 hide-scrollbar">
+                                <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-6 px-4">Menu Utama</p>
+                                <div className="flex flex-col gap-2">
+                                    {menuLinks.map((item, i) => {
+                                        const Icon = item.icon;
+                                        return (
+                                            <motion.div key={item.label} custom={i} variants={linkVariants}>
+                                                <Link
+                                                    href={item.href}
+                                                    className="flex items-center justify-between p-4 rounded-2xl hover:bg-indigo-50/80 text-slate-600 hover:text-indigo-700 transition-all duration-300 group"
+                                                >
+                                                    <div className="flex items-center gap-4">
+                                                        <div className="w-10 h-10 rounded-xl bg-slate-100 group-hover:bg-indigo-100 flex items-center justify-center transition-colors">
+                                                            <Icon className="w-5 h-5 text-slate-500 group-hover:text-indigo-600 transition-colors" />
+                                                        </div>
+                                                        <span className="text-[15px] font-bold">{item.label}</span>
+                                                    </div>
+                                                    <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-indigo-400 group-hover:translate-x-1 transition-all" />
+                                                </Link>
+                                            </motion.div>
+                                        );
+                                    })}
                                 </div>
                             </div>
-
-                            {/* Footer Info */}
-                            <motion.div
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                transition={{ delay: 0.6 }}
-                                className="absolute bottom-8 left-0 w-full text-center px-6"
-                            >
-                                <p className="text-xs md:text-sm font-bold tracking-widest uppercase text-black/40">© 2026 SASUKE.ID WEB INDONESIA. ALL RIGHTS RESERVED.</p>
-                            </motion.div>
                         </motion.div>
                     </motion.div>
                 )}

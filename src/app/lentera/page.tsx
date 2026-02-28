@@ -121,9 +121,9 @@ export default function LenteraDoaPage() {
                 {prayers.map((prayer) => (
                     <motion.div
                         key={prayer.id}
-                        initial={{ y: "110vh", opacity: 0 }}
+                        initial={{ y: "10vh", opacity: 0 }}
                         animate={{
-                            y: "-20vh",
+                            y: "-120vh",
                             opacity: [0, 1, 1, 0],
                             x: [0, Math.sin(prayer.delay) * 50, -Math.sin(prayer.delay) * 50, 0] // Gentle swaying
                         }}
@@ -132,7 +132,7 @@ export default function LenteraDoaPage() {
                             ease: "linear",
                             repeat: Infinity,
                             delay: prayer.delay,
-                            opacity: { duration: prayer.speed, times: [0, 0.1, 0.9, 1] }
+                            opacity: { duration: prayer.speed, times: [0, 0.1, 0.8, 1] }
                         }}
                         style={{ left: `${prayer.left}%`, transform: `scale(${prayer.scale})` }}
                         className="absolute bottom-0 cursor-pointer pointer-events-auto group"
@@ -181,14 +181,14 @@ export default function LenteraDoaPage() {
                                 "{activePrayer.text}"
                             </p>
 
-                            <div className="flex items-center justify-between border-t border-white/10 pt-6">
-                                <div>
+                            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between border-t border-white/10 pt-6 gap-4 sm:gap-0">
+                                <div className="w-full sm:w-auto">
                                     <p className="text-white/40 text-sm uppercase tracking-widest font-bold">Pengirim</p>
-                                    <p className="text-white/80 font-medium">{activePrayer.author}</p>
+                                    <p className="text-white/80 font-medium truncate max-w-full sm:max-w-[200px]">{activePrayer.author}</p>
                                 </div>
                                 <button
                                     onClick={() => handleHeart(activePrayer.id)}
-                                    className="flex items-center gap-3 px-6 py-3 bg-rose-500/10 hover:bg-rose-500/20 border border-rose-500/20 text-rose-400 rounded-full transition-colors group"
+                                    className="w-full sm:w-auto flex items-center justify-center gap-3 px-6 py-3 bg-rose-500/10 hover:bg-rose-500/20 border border-rose-500/20 text-rose-400 rounded-full transition-colors group"
                                 >
                                     <Heart className="w-5 h-5 group-hover:scale-110 transition-transform fill-current" />
                                     <span className="font-bold">Aamiin ({activePrayer.hearts})</span>
