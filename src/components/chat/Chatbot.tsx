@@ -128,22 +128,25 @@ export default function Chatbot() {
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
+                        drag
+                        dragConstraints={{ left: -1000, right: 0, top: -1000, bottom: 0 }}
+                        dragElastic={0.1}
                         initial={{ opacity: 0, y: 20, scale: 0.95 }}
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: 20, scale: 0.95 }}
                         className="fixed bottom-24 right-6 w-[350px] bg-white border border-black/10 shadow-2xl rounded-2xl z-50 flex flex-col overflow-hidden"
                     >
-                        <div className="bg-black text-white p-4 flex justify-between items-center">
+                        <div className="bg-black text-white p-4 flex justify-between items-center cursor-move active:cursor-grabbing">
                             <div>
-                                <h3 className="font-serif font-bold tracking-wide">DARIL AI</h3>
+                                <h3 className="font-sans font-bold tracking-wide">SASUKE.ID AI</h3>
                                 <p className="text-xs text-white/70">Islamic Assistant (Beta)</p>
                             </div>
-                            <button onClick={() => setIsOpen(false)} className="hover:bg-white/20 p-1 rounded-md transition-colors">
+                            <button onClick={() => setIsOpen(false)} className="hover:bg-white/20 p-1 rounded-md transition-colors cursor-pointer">
                                 <X className="w-5 h-5" />
                             </button>
                         </div>
 
-                        <div className="p-4 h-[380px] overflow-y-auto flex flex-col gap-4 bg-[#FAFAFA]">
+                        <div className="p-4 h-[380px] overflow-y-auto flex flex-col gap-4 bg-[#FAFAFA] cursor-default">
                             {messages.map((m, i) => (
                                 <div key={i} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>
                                     <div
@@ -155,7 +158,7 @@ export default function Chatbot() {
                             ))}
                         </div>
 
-                        <form onSubmit={handleSend} className="p-3 border-t border-black/5 bg-white flex gap-2">
+                        <form onSubmit={handleSend} className="p-3 border-t border-black/5 bg-white flex gap-2 cursor-default">
                             <input
                                 type="text"
                                 value={input}

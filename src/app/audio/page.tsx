@@ -200,7 +200,9 @@ export default function AudioHub() {
 
                                         <div>
                                             <h3 className={`text-lg md:text-xl font-bold font-serif mb-1 truncate ${isSelected ? 'text-emerald-400' : 'text-white group-hover:text-emerald-300'} transition-colors`}>{s.englishName}</h3>
-                                            <p className="text-xs md:text-sm text-white/50">{s.englishNameTranslation} • {s.revelationType}</p>
+                                            <p className="text-xs md:text-sm text-white/50">
+                                                {s.englishNameTranslation} • {s.revelationType === "Meccan" ? "Makkiyah" : s.revelationType === "Medinan" ? "Madaniyah" : s.revelationType}
+                                            </p>
                                         </div>
                                     </div>
 

@@ -2,11 +2,12 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Globe, Type, ChevronRight, Home, BookOpen, Clock, ListChecks, HeartHandshake, Sparkles, CalendarDays, Compass, Activity, TrendingUp, Moon, Target, Newspaper } from "lucide-react";
+import { Menu, X, Globe, Type, ChevronRight, Home, BookOpen, Clock, ListChecks, HeartHandshake, Sparkles, CalendarDays, Headphones, Compass, Activity, TrendingUp, Moon, Target, Newspaper } from "lucide-react";
 import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 import { useAccessibility } from "@/context/AccessibilityContext";
 import { usePathname } from "next/navigation";
+import InstallPWA from "./InstallPWA";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -35,6 +36,8 @@ export default function Navbar() {
         { label: t.navDoa || "Doa", href: "/doa", icon: HeartHandshake },
         { label: t.navAsmaulHusna || "Asmaul Husna", href: "/asmaul-husna", icon: Sparkles },
         { label: t.navKalender || "Kalender", href: "/kalender", icon: CalendarDays },
+        { label: "Murottal", href: "/audio", icon: Headphones },
+        { label: "Tasbih Digital", href: "/tasbih", icon: Target },
         { label: t.navKiblat || "Kiblat", href: "/kiblat", icon: Compass },
         { label: lang === 'ID' ? "Mutaba'ah" : "Tracker", href: "/tracker", icon: Activity },
         { label: lang === 'ID' ? "Kalkulator Khatam" : "Khatam Planner", href: "/khatam", icon: TrendingUp },
@@ -91,6 +94,7 @@ export default function Navbar() {
 
                     {/* Right: Actions */}
                     <div className="flex-1 flex justify-end gap-2 md:gap-3">
+                        <InstallPWA />
                         <button
                             onClick={cycleScale}
                             className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-100/80 text-slate-700 hover:bg-slate-200 transition-colors group"
@@ -132,7 +136,7 @@ export default function Navbar() {
                             <div className="flex justify-between items-center p-6 border-b border-slate-100">
                                 <div className="flex items-center gap-2">
                                     <Sparkles className="w-5 h-5 text-indigo-500" />
-                                    <span className="font-logo text-xl text-slate-800 tracking-wide">SASUKE.ID</span>
+                                    <span className="font-sans font-black text-xl text-slate-800 tracking-wide">SASUKE.ID</span>
                                 </div>
                                 <button
                                     onClick={() => setIsOpen(false)}

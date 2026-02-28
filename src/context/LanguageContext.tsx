@@ -86,9 +86,9 @@ interface Translations {
 
 const translations: Record<Language, Translations> = {
     ID: {
-        heroTagline: "JALAN MENUJU KEDAMAIAN",
-        heroTitle: "Temukan Cahaya dalam Setiap Langkah",
-        heroDesc: "Ruang elegan untuk memperdalam iman, membaca Al-Quran, dan menemukan hikmah Islam.",
+        heroTagline: "TEMAN IBADAH HARIANMU",
+        heroTitle: "Langkah Kecil\nMenuju Kebaikan",
+        heroDesc: "Ruang teduh untuk memperdalam iman, membaca Al-Quran, melihat jadwal sholat, dan menemukan hikmah Islam setiap hari.",
         heroBtnQuran: "Baca Al-Quran",
         heroBtnSholat: "Jadwal Sholat",
         navHome: "Beranda",

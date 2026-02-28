@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { BookOpen, Navigation, ArrowRight, Target, Newspaper, HeartHandshake, Sparkles, Calendar, Compass, ListChecks, Activity, TrendingUp, Moon, Star, Flame, PlayCircle } from "lucide-react";
+import { BookOpen, Navigation, ArrowRight, Target, Newspaper, HeartHandshake, Sparkles, Calendar, Compass, ListChecks, Activity, TrendingUp, Moon, Star, Flame, PlayCircle, Volume2 } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function FeatureShortcuts() {
@@ -28,6 +28,26 @@ export default function FeatureShortcuts() {
             hoverClass: "hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-500/10",
             iconClass: "text-blue-600 bg-blue-500/10",
             arrowClass: "text-blue-400 group-hover:text-blue-600"
+        },
+        {
+            title: "Murottal/Audio",
+            desc: "Dengarkan lantunan ayat Al-Quran",
+            icon: Volume2,
+            href: "/audio",
+            className: "md:col-span-2 bg-indigo-500 text-white border-none",
+            hoverClass: "hover:scale-[1.02] hover:shadow-2xl hover:shadow-indigo-500/40",
+            iconClass: "text-white bg-white/20",
+            arrowClass: "text-white/50 group-hover:text-white"
+        },
+        {
+            title: "Tasbih Digital",
+            desc: "Berdzikir dengan nyaman",
+            icon: Target,
+            href: "/tasbih",
+            className: "md:col-span-2 bg-emerald-500 text-white border-none",
+            hoverClass: "hover:scale-[1.02] hover:shadow-2xl hover:shadow-emerald-500/40",
+            iconClass: "text-white bg-white/20",
+            arrowClass: "text-white/50 group-hover:text-white"
         }
     ];
 

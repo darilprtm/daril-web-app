@@ -16,7 +16,7 @@ export default function AudioWidget() {
         number: 55,
         name: "Ar-Rahman",
         englishNameTranslation: "The Beneficent",
-        revelationType: "Meccan",
+        revelationType: "Makkiyah",
         audioUrl: "https://server8.mp3quran.net/afs/055.mp3" // Mishary Rashid Alafasy
     };
 
@@ -75,7 +75,15 @@ export default function AudioWidget() {
                 <div className="absolute -top-24 -left-24 w-64 h-64 bg-emerald-500/20 rounded-full blur-3xl mix-blend-screen pointer-events-none" />
                 <div className="absolute -bottom-24 -right-24 w-64 h-64 bg-indigo-500/20 rounded-full blur-3xl mix-blend-screen pointer-events-none" />
 
-                <div className="flex-1 flex items-center gap-6 w-full z-10">
+                {/* Explore Link Overlay */}
+                <Link
+                    href="/audio"
+                    className="absolute top-4 right-6 text-xs font-bold text-white/50 hover:text-white transition-colors z-30 hidden md:flex items-center gap-1 group"
+                >
+                    Cari Audio Lain <span className="group-hover:translate-x-1 transition-transform">➔</span>
+                </Link>
+
+                <div className="flex-1 flex items-center gap-6 w-full z-10 mt-4 md:mt-0">
                     {/* Album Art replacement -> Spinning Disc */}
                     <div className="relative w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-gradient-to-br from-slate-800 to-black flex items-center justify-center shadow-2xl shrink-0 overflow-hidden">
                         <motion.div

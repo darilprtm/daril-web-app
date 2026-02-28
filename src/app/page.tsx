@@ -1,5 +1,6 @@
 import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/layout/Hero";
+import HijriWidget from "@/components/home/HijriWidget";
 import FeatureShortcuts from "@/components/home/FeatureShortcuts";
 import AudioWidget from "@/components/home/AudioWidget";
 import DailyTips from "@/components/tips/DailyTips";
@@ -12,6 +13,7 @@ export default async function Home() {
     <main className="min-h-screen bg-slate-50">
       <Navbar />
       <Hero />
+      <HijriWidget />
       <AudioWidget />
       <FeatureShortcuts />
       <DailyTips initialTips={tips} />
